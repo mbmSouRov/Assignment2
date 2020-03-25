@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="212dp"
+        android:layout_y="413dp"
+        android:text="Sajek Valley is an emerging tourist spot in Bangladesh situated among the hills of Kasalong range of mountains in Sajek union, Baghaichhari Upazila in Rangamati District.The valley is 1,476 feet (450 m) above sea level.Sajek valley is known as the Queen of Hills Roof of Rangamati" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="15dp"
+        android:layout_y="227dp"
+        android:text="Nilachal is one of the most visited places in the Bandarban district of Bangladesh. This attractive tourist center has been set up at Paharchaura of Tigerpara, about six km from Bandarban city, under the supervision of the district administration of Nilachal Tourism Complex" />
+
+    <ImageView
+        android:id="@+id/nilgiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="28dp"
+        app:srcCompat="@drawable/nilgiri" />
+
+    <ImageView
+        android:id="@+id/nilachol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="256dp"
+        app:srcCompat="@drawable/nilachor" />
+
+    <ImageView
+        android:id="@+id/sajek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="418dp"
+        app:srcCompat="@drawable/sajek" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="206dp"
+        android:layout_y="28dp"
+        android:text="This is an excellent place to visit with friends and families. Everyone will be excited during climbing towards Nilgiri through 'Chander Gari' (Local name of the vehicle like hood open mini truck). The sky, the hill, the greenery, cloud, lot of small bazar and photo shooting" />
+
+    <Button
+        android:id="@+id/backbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="535dp"
+        android:text="Back" />
+</AbsoluteLayout>

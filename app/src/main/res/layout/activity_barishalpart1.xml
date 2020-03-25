@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".barishalpart1">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="212dp"
+        android:layout_y="413dp"
+        android:text="The beach is a very quite and beautiful one in Bangladesh. You can watch both sunrise and sunset fro the same beach. Enjoyed a lot in the beach as well as the boat trip to the eastern part of Sundarbans." />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="15dp"
+        android:layout_y="227dp"
+        android:text="A nice place for walking and meet with local people after the huge busy cities like Dhaka or Chittagong." />
+
+    <ImageView
+        android:id="@+id/durga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="28dp"
+        app:srcCompat="@drawable/durga" />
+
+    <ImageView
+        android:id="@+id/gurva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="256dp"
+        app:srcCompat="@drawable/gurva" />
+
+    <ImageView
+        android:id="@+id/kuakata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="418dp"
+        app:srcCompat="@drawable/kuakata" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="206dp"
+        android:layout_y="28dp"
+        android:text="it is a large water lake in Barisal. visitors who come Barisal also come at this place. Not so much attractive and no extra other attractions and facilities" />
+
+    <Button
+        android:id="@+id/backbutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="535dp"
+        android:text="Back" />
+
+
+</AbsoluteLayout>

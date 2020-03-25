@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:layout_gravity="center"
+    android:paddingTop="100dp"
+    tools:context=".viewPlace">
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="420dp"
+        android:text="Back"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/first"
+        android:src="@drawable/sajek1"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:scaleType="fitStart"
+        />
+    <ImageView
+        android:id="@+id/second"
+        android:visibility="invisible"
+        android:src="@drawable/sajek2"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:scaleType="fitStart"
+        />
+    <ImageView
+        android:id="@+id/third"
+        android:src="@drawable/cox"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:scaleType="fitCenter"
+        />
+    <ImageView
+        android:id="@+id/fourth"
+        android:visibility="invisible"
+        android:src="@drawable/cox2"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:scaleType="fitCenter"
+        />
+    <ImageView
+        android:id="@+id/fifth"
+        android:src="@drawable/shyleth"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:scaleType="fitEnd"
+        />
+
+    <ImageView
+        android:id="@+id/sixth"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/shyleth2"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Touch on the images to Swap Views"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Bangladesh is enriched with natural beauty. The longest sea beach of the world, the biggest mangrove forest, eye catching tea garden of sylhet, Maynamati, Bagerhat, Mohastangar of Bogra etc are famous tourist place in Bangladesh. But there are many other attractive places here which people know a little. Shusong Durgapur of Birishiri is one of the place. It is under Netrokona district. If you go to Kuakata, another sea beach in our country, you will be charmed. From this place you can enjoy the Sun rise as well as Sun set."
+            android:textSize="15dp"
+            android:paddingTop="250dp"
+            android:paddingLeft="15dp"
+            />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

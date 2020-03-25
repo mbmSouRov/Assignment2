@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wallpaper"
+        android:alpha="0.8"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        android:text="Know Your Own roots,then the world"
+        android:textColor="@color/fourth"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="280dp"
+        android:hint="BD's Number 1 tour guide App"
+        android:background="@color/fifth"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/cheackPlaceButton"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textColor="@color/third"
+        android:background="@color/second"
+        android:text="cheack Places "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/viewplaces"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="125dp"
+        android:text="View places "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/credit"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textColor="@color/third"
+        android:text="Credit"
+        android:background="@color/second"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_alignTop="@id/credit"
+        android:layout_toRightOf="@id/credit"
+        android:id="@+id/help"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textColor="@color/third"
+        android:text="Help"
+        android:background="@color/second"
+        android:textStyle="italic"
+        />
+
+</RelativeLayout>

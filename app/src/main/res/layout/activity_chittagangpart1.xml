@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chittagangpart1">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="212dp"
+        android:layout_y="413dp"
+        android:text="Patenga beach is about 22 km from Chittagong district. The place is blessed with two of the most significant water resource of the country - the river Karnaphuli and the Bay of Bengal. " />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="15dp"
+        android:layout_y="227dp"
+        android:text="The War Cemetery, located on Badshah Mia Road, is a place of historic value and interest. It contains the graves of 755 soldiers of the Allied Force who laid down their lives on the Indo-Burmese front during World War II." />
+
+    <ImageView
+        android:id="@+id/foyz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="28dp"
+        app:srcCompat="@drawable/foyz" />
+
+    <ImageView
+        android:id="@+id/war"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="256dp"
+        app:srcCompat="@drawable/zia" />
+
+    <ImageView
+        android:id="@+id/potenga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="418dp"
+        app:srcCompat="@drawable/potenga" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="206dp"
+        android:layout_y="28dp"
+        android:text="Foy's Lake, a man-made lake, was created in 1924 by the Assam-Bengal Railway, which is located at Pahartali. Foy's Lake is near to Batali Hill, the highest hill of Chittagong metropolitan area. This is an amusement park and its total area is 320 Acres.
+" />
+
+    <Button
+        android:id="@+id/backbutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="535dp"
+        android:text="Back" />
+
+
+</AbsoluteLayout>

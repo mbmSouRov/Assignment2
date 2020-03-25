@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dhakapart1">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="212dp"
+        android:layout_y="413dp"
+        android:text="Lalbagh Fort is the most popular and renowned fort and a great signature of art by Mughal Empire in Bangladesh. It is also known as Fort Aurangabad." />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="15dp"
+        android:layout_y="227dp"
+        android:text="Ahsan Manzil(romanized: Ahsan Monzil) was the official residential palace and seat of the Nawab of Dhaka.The building is situated at Kumartoli along the banks of the Buriganga River in Dhaka, Bangladesh. Construction was started in 1859 and was completed in 1872" />
+
+    <ImageView
+        android:id="@+id/dhakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="28dp"
+        app:srcCompat="@drawable/dhakeshwari" />
+
+    <ImageView
+        android:id="@+id/ahshan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="256dp"
+        app:srcCompat="@drawable/ahshanmanjil" />
+
+    <ImageView
+        android:id="@+id/lalbagh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="418dp"
+        app:srcCompat="@drawable/lalbag" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="206dp"
+        android:layout_y="28dp"
+        android:text="Dhakeshwari National Temple is a Hindu temple in Dhaka, Bangladesh. It is state-owned, giving it the distinction of being Bangladesh's 'National Temple'" />
+
+    <Button
+        android:id="@+id/backbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="535dp"
+        android:text="Back" />
+
+</AbsoluteLayout>

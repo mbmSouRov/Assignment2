@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@color/sixth"
+    android:shrinkColumns="0"
+    >
+
+    <TableRow
+        android:id="@+id/titleRowId1"
+        android:layout_marginTop="20dp"
+        android:padding="25dp"
+        >
+      <TextView
+          android:layout_span="2"
+          android:text="Click On the CIty to know more"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_marginHorizontal="20dp"
+          android:layout_gravity="center_horizontal"
+          android:textColor="@color/third"
+          />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/titleRowId2"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="35dp"
+        >
+
+        <Button
+            android:id="@+id/dhaka1"
+            android:text="Dhaka"
+            android:textStyle="bold"
+            android:height="100dp"
+            android:width="170dp"
+            android:background="@drawable/dhaka"
+            />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/CTG"
+            android:textStyle="bold"
+            android:text="Chittagang"
+            android:height="100dp"
+            android:width="170dp"
+            android:background="@drawable/ctg"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/titleRowId3"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="130dp"
+        >
+
+        <Button
+            android:id="@+id/Bandarban"
+            android:text="Bandarban"
+            android:textStyle="bold"
+            android:height="100dp"
+            android:width="170dp"
+            android:background="@drawable/bandarban"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/titleRowId4"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="35dp"
+        >
+
+        <Button
+            android:id="@+id/barishal"
+            android:text="Barishal"
+            android:textStyle="bold"
+            android:height="100dp"
+            android:width="170dp"
+            android:background="@drawable/barishal"
+            />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/khulna"
+            android:text="Khulna"
+            android:textStyle="bold"
+            android:height="100dp"
+            android:width="170dp"
+            android:background="@drawable/khulna"
+
+            />
+
+    </TableRow>
+    <Button
+        android:id="@+id/backBUTTon"
+        android:layout_height="wrap_content"
+        android:text="Home"
+
+        />
+
+
+</TableLayout>

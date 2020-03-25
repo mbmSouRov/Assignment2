@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".khulnapart1">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="212dp"
+        android:layout_y="413dp"
+        android:text="Sundarbans is the largest mangrove forest in the world. It extends across Khulna, Satkhira, Bagerhat, Patuakhali and Barguna districts of Bangladesh. The Sundarbans literally means in Bengali - beautiful forest. But the Sundarbans may have been named after the Sundori tree as well, which grows abundantly there." />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="15dp"
+        android:layout_y="227dp"
+        android:text="1971 : Genocide-Torture Archive Museum is located at Munshipara 1st Lane, Munshipara, Khulna - 9100. Besides this museum, there is one more museum listed in Khulna. There's also fifteen attractions listed in this district in other categories." />
+
+    <ImageView
+        android:id="@+id/hironpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="28dp"
+        app:srcCompat="@drawable/hironpoint" />
+
+    <ImageView
+        android:id="@+id/musium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="256dp"
+        app:srcCompat="@drawable/musiam" />
+
+    <ImageView
+        android:id="@+id/sundorbon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="418dp"
+        app:srcCompat="@drawable/sundorbon" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="189dp"
+        android:layout_height="165dp"
+        android:layout_x="206dp"
+        android:layout_y="28dp"
+        android:text="Hiron Point is a protected wildlife sanctuary in the south of the Sundarbans. Sundarbans is the largest mangrove forest in the world. It is located on the west bank of Kunga River in Khulna district which is in the southern part of Bangladesh. Another name of Hiron point is Nilkamal. UNESCO has recognized Hiron point as a World Heritage site." />
+
+    <Button
+        android:id="@+id/backbutton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="535dp"
+        android:text="Back" />
+
+</AbsoluteLayout>
